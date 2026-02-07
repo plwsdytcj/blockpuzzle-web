@@ -1,0 +1,4 @@
+# Block Puzzle app-ads.txt
+# Learn more: https://support.google.com/admob/answer/9363761
+# Google AdMob (your publisher ID)
+google.com, pub-5937681356868683, DIRECT, f08c47fec0942fa0
