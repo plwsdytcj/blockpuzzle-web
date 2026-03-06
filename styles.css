@@ -6,9 +6,12 @@ html,body{margin:0;padding:0;font-family:system-ui,-apple-system,Segoe UI,Roboto
 .container{max-width:1080px;margin:0 auto;padding:24px}
 .header{display:flex;align-items:center;justify-content:space-between;padding:16px 0}
 .logo{display:flex;gap:12px;align-items:center}
-.logo-circle{width:36px;height:36px;border-radius:50%;background:linear-gradient(135deg,var(--primary),var(--accent))}
+.logo-circle{display:none}
+.logo-img{height:36px; display:block}
 .nav a{color:var(--muted);text-decoration:none;margin-left:16px}
 .hero{padding:56px 0}
+.hero .hero-logo{max-width:300px; width:100%; height:auto; display:block; margin:0 0 16px}
+.hero .hero-image{max-width:720px; width:100%; height:auto; margin-top:16px; border-radius:14px; border:1px solid #1f2940}
 .hero h1{font-size:40px;margin:0 0 12px}
 .hero p{color:var(--muted);max-width:720px}
 .cta{display:flex;gap:12px;margin-top:20px;flex-wrap:wrap}
