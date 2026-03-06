@@ -1,4 +1,4 @@
-# Block Puzzle – 官方网站
+# Wonder Blast – 官方网站
 
 静态站点，包含：
 - 首页（index.html）
@@ -19,4 +19,3 @@ python3 -m http.server -d . 5500
 ## 部署到 Vercel
 - 直接导入此仓库，Framework 选择 `Other`
 - 自有域名绑定后，确保 `https://你的域名/app-ads.txt` 可访问
-
